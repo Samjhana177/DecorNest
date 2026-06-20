@@ -4,10 +4,6 @@ include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
-<!-- =========================================================
-     1. HERO SECTION
-     Big banner with background image, heading, and 2 buttons
-========================================================= -->
 <section class="dn-hero">
   <div class="dn-hero-overlay"></div>
   <div class="container">
@@ -28,10 +24,6 @@ include 'includes/navbar.php';
 </section>
 
 
-<!-- =========================================================
-     2. CATEGORIES SECTION
-     4 cards: Sofa, Furniture, Lighting, Wall Art
-========================================================= -->
 <section id="categories" class="dn-section">
   <div class="container">
 
@@ -79,10 +71,6 @@ include 'includes/navbar.php';
 </section>
 
 
-<!-- =========================================================
-     3. FEATURED PRODUCTS SECTION
-     Static product cards (no database yet)
-========================================================= -->
 <section class="dn-section dn-section-grey">
   <div class="container">
 
@@ -96,7 +84,7 @@ include 'includes/navbar.php';
       <!-- Product 1: Luxury Sofa -->
       <div class="col-sm-6 col-lg-3">
         <div class="dn-product-card">
-          <img src="assets/images/sofa.jpg" alt="Luxury Sofa" class="dn-product-img">
+          <img src="assets/images/sofa.png" alt="Luxury Sofa" class="dn-product-img">
           <div class="dn-product-body">
             <h5 class="dn-product-name">Luxury Sofa</h5>
             <p class="dn-product-price">Rs. 25,000</p>
@@ -108,7 +96,7 @@ include 'includes/navbar.php';
       <!-- Product 2: Modern Chair -->
       <div class="col-sm-6 col-lg-3">
         <div class="dn-product-card">
-          <img src="assets/images/chair.jpg" alt="Modern Chair" class="dn-product-img">
+          <img src="assets/images/chair.png" alt="Modern Chair" class="dn-product-img">
           <div class="dn-product-body">
             <h5 class="dn-product-name">Modern Chair</h5>
             <p class="dn-product-price">Rs. 8,000</p>
@@ -120,7 +108,7 @@ include 'includes/navbar.php';
       <!-- Product 3: Decor Lamp -->
       <div class="col-sm-6 col-lg-3">
         <div class="dn-product-card">
-          <img src="assets/images/lamp.jpg" alt="Decor Lamp" class="dn-product-img">
+          <img src="assets/images/lamp.png" alt="Decor Lamp" class="dn-product-img">
           <div class="dn-product-body">
             <h5 class="dn-product-name">Decor Lamp</h5>
             <p class="dn-product-price">Rs. 3,500</p>
@@ -132,7 +120,7 @@ include 'includes/navbar.php';
       <!-- Product 4: Wall Art -->
       <div class="col-sm-6 col-lg-3">
         <div class="dn-product-card">
-          <img src="assets/images/wallart.jpg" alt="Wall Art" class="dn-product-img">
+          <img src="assets/images/wallart.png" alt="Wall Art" class="dn-product-img">
           <div class="dn-product-body">
             <h5 class="dn-product-name">Wall Art</h5>
             <p class="dn-product-price">Rs. 2,500</p>
@@ -146,10 +134,6 @@ include 'includes/navbar.php';
 </section>
 
 
-<!-- =========================================================
-     4. INTERIOR DESIGN SERVICES SECTION
-     3 service cards
-========================================================= -->
 <section class="dn-section">
   <div class="container">
 
@@ -192,10 +176,6 @@ include 'includes/navbar.php';
 </section>
 
 
-<!-- =========================================================
-     5. WHY CHOOSE DECORNEST SECTION
-     4 simple feature boxes
-========================================================= -->
 <section class="dn-section dn-section-dark">
   <div class="container">
 
@@ -230,12 +210,6 @@ include 'includes/navbar.php';
   </div>
 </section>
 
-
-<!-- =========================================================
-     6. CUSTOMER TESTIMONIALS SECTION
-     3 simple testimonial cards
-========================================================= -->
-<section class="dn-section">
   <div class="container">
 
     <div class="dn-section-heading">
@@ -280,10 +254,6 @@ include 'includes/navbar.php';
 </section>
 
 
-<!-- =========================================================
-     7. NEWSLETTER SECTION
-     Email input + Subscribe button
-========================================================= -->
 <section class="dn-newsletter">
   <div class="container">
     <div class="dn-newsletter-box">

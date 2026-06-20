@@ -41,11 +41,7 @@
 
     <hr class="dn-footer-divider">
 
-    <!-- Copyright -->
-    <p class="dn-footer-copy">
-      &copy; <?php echo date("Y"); ?> DecorNest. All Rights Reserved.
-      | BCSIT Class Project
-    </p>
+
   </div>
 </footer>
 

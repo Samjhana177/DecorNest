@@ -1,14 +1,3 @@
-/* ====================================================
-   FILE: assets/css/style.css
-   PURPOSE: Custom styles for the DecorNest website.
-   Theme: Luxury modern home decor (Beige, Brown, White)
-   Organized into clear sections with comments.
-==================================================== */
-
-
-/* ====================================================
-   1. ROOT VARIABLES (our color palette)
-==================================================== */
 :root {
   --dn-brown:       #6F4E37;   /* main brown - buttons, headings */
   --dn-brown-dark:  #4A3222;   /* darker brown - hover states */
@@ -20,10 +9,6 @@
   --dn-radius:      10px;      /* rounded corners used everywhere */
 }
 
-
-/* ====================================================
-   2. GENERAL / BASE STYLES
-==================================================== */
 body {
   font-family: 'Poppins', sans-serif;
   color: var(--dn-text-dark);
@@ -74,10 +59,6 @@ a {
   color: var(--dn-white);
 }
 
-
-/* ====================================================
-   3. NAVBAR
-==================================================== */
 .dn-navbar {
   background-color: var(--dn-white);
   padding: 14px 0;
@@ -95,8 +76,8 @@ a {
 }
 
 .dn-logo-img {
-  height: 36px;
-  width: 36px;
+  height: 50px;
+  width: 50px;
   object-fit: contain;
 }
 
@@ -126,10 +107,6 @@ a {
   background-color: var(--dn-brown-dark);
 }
 
-
-/* ====================================================
-   4. HERO SECTION
-==================================================== */
 .dn-hero {
   position: relative;
   min-height: 90vh;
@@ -210,10 +187,6 @@ a {
   transform: translateY(-2px);
 }
 
-
-/* ====================================================
-   5. CATEGORIES SECTION
-==================================================== */
 .dn-category-card {
   display: block;
   background-color: var(--dn-beige);
@@ -242,10 +215,6 @@ a {
   font-size: 1.05rem;
 }
 
-
-/* ====================================================
-   6. FEATURED PRODUCTS SECTION
-==================================================== */
 .dn-product-card {
   background-color: var(--dn-white);
   border: 1px solid var(--dn-beige-dark);
@@ -299,10 +268,6 @@ a {
   color: var(--dn-white);
 }
 
-
-/* ====================================================
-   7. INTERIOR DESIGN SERVICES SECTION
-==================================================== */
 .dn-service-card {
   background-color: var(--dn-white);
   border: 1px solid var(--dn-beige-dark);
@@ -335,10 +300,6 @@ a {
   margin: 0;
 }
 
-
-/* ====================================================
-   8. WHY CHOOSE DECORNEST SECTION
-==================================================== */
 .dn-why-icon {
   font-size: 2.2rem;
   color: var(--dn-beige);
@@ -351,10 +312,6 @@ a {
   font-weight: 500;
 }
 
-
-/* ====================================================
-   9. TESTIMONIALS SECTION
-==================================================== */
 .dn-testimonial-card {
   background-color: var(--dn-beige);
   border-radius: var(--dn-radius);
@@ -386,10 +343,6 @@ a {
   margin: 0;
 }
 
-
-/* ====================================================
-   10. NEWSLETTER SECTION
-==================================================== */
 .dn-newsletter {
   background-color: var(--dn-beige-dark);
   padding: 60px 0;
@@ -429,10 +382,6 @@ a {
   padding: 12px 28px;
 }
 
-
-/* ====================================================
-   11. FOOTER
-==================================================== */
 .dn-footer {
   background-color: var(--dn-text-dark);
   color: #D8CFC4;
@@ -487,11 +436,6 @@ a {
   color: #A89D8E;
   margin: 0;
 }
-
-
-/* ====================================================
-   12. RESPONSIVE / MEDIA QUERIES
-==================================================== */
 
 /* Tablet screens */
 @media (max-width: 991px) {

@@ -1,11 +1,3 @@
-/* ====================================================
-   FILE: assets/js/script.js
-   PURPOSE: Simple JavaScript enhancements for the
-   DecorNest website. Kept beginner-friendly with
-   clear comments for every part.
-==================================================== */
-
-
 /* ----------------------------------------------------
    1. Wait until the page has fully loaded
 ---------------------------------------------------- */
