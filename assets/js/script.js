@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
+
   const navLinks = document.querySelectorAll(".navbar-nav .nav-link, .dn-btn-register");
   const mobileMenu = document.querySelector("#dnNavbarMenu");
 
