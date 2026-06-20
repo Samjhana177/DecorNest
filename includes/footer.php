@@ -1,12 +1,7 @@
 <?php
-/* ====================================================
-   FILE: includes/footer.php
-   PURPOSE: The site footer shown at the bottom of every
-   page, plus the closing HTML tags and JS script links.
-   This file is included at the BOTTOM of every page.
-==================================================== */
+
 ?>
-<!-- ===== FOOTER START ===== -->
+
 <footer class="dn-footer">
   <div class="container">
     <div class="row gy-4">
@@ -53,7 +48,7 @@
     </p>
   </div>
 </footer>
-<!-- ===== FOOTER END ===== -->
+
 
 <!-- Bootstrap 5 JS Bundle (needed for navbar toggle, etc.) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
