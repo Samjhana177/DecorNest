@@ -1,12 +1,7 @@
 <?php
-/* ====================================================
-   FILE: includes/navbar.php
-   PURPOSE: The responsive navigation bar shown at the
-   top of every page. Includes the logo, menu links,
-   and Login / Register buttons.
-==================================================== */
+
 ?>
-<!-- ===== NAVBAR START ===== -->
+
 <nav class="navbar navbar-expand-lg dn-navbar sticky-top">
   <div class="container">
 
@@ -54,4 +49,3 @@
     </div>
   </div>
 </nav>
-<!-- ===== NAVBAR END ===== -->
