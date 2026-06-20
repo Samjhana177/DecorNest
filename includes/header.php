@@ -1,17 +1,11 @@
 <?php
-/* ====================================================
-   FILE: includes/header.php
-   PURPOSE: Opens the HTML document, loads meta tags,
-   page title, Bootstrap CSS, Bootstrap Icons, and our
-   own custom stylesheet (style.css).
-   This file is included at the TOP of every page.
-==================================================== */
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 
-  <!-- Basic meta tags -->
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DecorNest - Home Decor & Furniture</title>
