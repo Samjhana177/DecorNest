@@ -45,12 +45,17 @@
   </div>
 </footer>
 
-
-<!-- Bootstrap 5 JS Bundle (needed for navbar toggle, etc.) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
 <!-- Our own custom JS file -->
 <script src="assets/js/script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Page-specific JavaScript -->
+<?php if (!empty($extraJs)): ?>
+    <?php foreach ($extraJs as $jsFile): ?>
+        <script src="<?php echo htmlspecialchars($jsFile); ?>"></script>
+    <?php endforeach; ?>
+<?php endif; ?>
 
 </body>
 </html>

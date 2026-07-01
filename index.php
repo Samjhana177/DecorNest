@@ -4,6 +4,10 @@ include 'includes/header.php';
 include 'includes/navbar.php';
 ?>
 
+<div class="dn-hero-buttons">
+  <a href="products.php" class="btn dn-btn-primary">Shop Now</a>
+  <a href="#categories" class="btn dn-btn-outline">Explore Collection</a>
+</div>
 <section class="dn-hero">
   <div class="dn-hero-overlay"></div>
   <div class="container">

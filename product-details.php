@@ -14,7 +14,7 @@
 include 'includes/products-data.php';
 
 $extraCss = ['assets/css/products.css'];
-$extraJs  = ['assets/js/products.js'];
+$extraJs  = ['assets/js/products.js', 'assets/js/product-details.js'];
 
 include 'includes/header.php';
 include 'includes/navbar.php';

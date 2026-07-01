@@ -1,0 +1,254 @@
+/* ====================================================
+   FILE: assets/css/register.css
+   PURPOSE: Styles for register.php only.
+   Theme: Sage green, white background, soft shadows,
+   rounded corners - modern auth card design.
+==================================================== */
+
+
+/* ====================================================
+   1. LOCAL COLOR VARIABLES (sage green auth theme)
+   These are separate from the main brown theme so the
+   auth pages have their own distinct, calming feel.
+==================================================== */
+:root {
+  --dn-sage:        #87A878;   /* main sage green */
+  --dn-sage-dark:   #6B8A5E;   /* darker green - hover */
+  --dn-sage-light:  #EAF1E6;   /* light green background tint */
+  --dn-auth-text:   #3B2E25;
+  --dn-auth-grey:   #6B6258;
+  --dn-auth-radius: 14px;
+}
+
+
+/* ====================================================
+   2. PAGE BACKGROUND
+==================================================== */
+.dn-auth-body {
+  background-color: var(--dn-sage-light);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+.dn-auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+
+/* ====================================================
+   3. AUTH CARD
+==================================================== */
+.dn-auth-card {
+  background-color: #FFFFFF;
+  border-radius: var(--dn-auth-radius);
+  padding: 40px 36px;
+  box-shadow: 0 18px 40px rgba(107, 138, 94, 0.15);
+}
+
+.dn-auth-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dn-sage-dark);
+}
+
+.dn-auth-brand i {
+  font-size: 1.6rem;
+}
+
+.dn-auth-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  color: var(--dn-auth-text);
+}
+
+.dn-auth-subtitle {
+  text-align: center;
+  color: var(--dn-auth-grey);
+  font-size: 0.92rem;
+  margin-bottom: 26px;
+}
+
+
+/* ====================================================
+   4. FORM LABELS + INPUTS
+==================================================== */
+.form-label {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--dn-auth-text);
+  margin-bottom: 6px;
+}
+
+.dn-input {
+  border: 1.5px solid #DCE5D8;
+  border-radius: 10px;
+  padding: 11px 16px;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dn-input:focus {
+  border-color: var(--dn-sage);
+  box-shadow: 0 0 0 3px rgba(135, 168, 120, 0.18);
+  outline: none;
+}
+
+/* Red border style when a field has a validation error */
+.dn-input.dn-input-error {
+  border-color: #D9534F;
+}
+
+/* Small red error text below each input */
+.dn-error-text {
+  display: block;
+  color: #D9534F;
+  font-size: 0.78rem;
+  margin-top: 4px;
+  min-height: 14px;
+}
+
+
+/* ====================================================
+   5. PASSWORD FIELD WITH SHOW/HIDE BUTTON
+==================================================== */
+.dn-password-wrap {
+  position: relative;
+}
+
+.dn-password-wrap .dn-input {
+  padding-right: 44px;
+}
+
+.dn-toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--dn-auth-grey);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.dn-toggle-password:hover {
+  color: var(--dn-sage-dark);
+}
+
+
+/* ====================================================
+   6. PASSWORD STRENGTH INDICATOR
+==================================================== */
+.dn-strength-bar {
+  width: 100%;
+  height: 6px;
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.dn-strength-fill {
+  height: 100%;
+  width: 0%;
+  border-radius: 10px;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+/* Strength levels - colors set by JavaScript */
+.dn-strength-fill.weak   { background-color: #D9534F; }
+.dn-strength-fill.medium { background-color: #F0AD4E; }
+.dn-strength-fill.strong { background-color: var(--dn-sage); }
+
+.dn-strength-text {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--dn-auth-grey);
+  margin-top: 4px;
+}
+
+
+/* ====================================================
+   7. BUTTONS
+==================================================== */
+.dn-btn-auth {
+  background-color: var(--dn-sage);
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.dn-btn-auth:hover {
+  background-color: var(--dn-sage-dark);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+}
+
+.dn-btn-auth:disabled {
+  background-color: #B7C9AE;
+  cursor: not-allowed;
+  transform: none;
+}
+
+
+/* ====================================================
+   8. FOOTER TEXT (Already have an account? Login)
+==================================================== */
+.dn-auth-footer-text {
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--dn-auth-grey);
+}
+
+.dn-auth-footer-text a {
+  color: var(--dn-sage-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.dn-auth-footer-text a:hover {
+  text-decoration: underline;
+}
+
+
+/* ====================================================
+   9. ALERTS (success / error messages)
+==================================================== */
+.dn-auth-card .alert {
+  border-radius: 10px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+/* ====================================================
+   10. RESPONSIVE ADJUSTMENTS
+==================================================== */
+@media (max-width: 576px) {
+  .dn-auth-card {
+    padding: 30px 22px;
+  }
+
+  .dn-auth-wrapper {
+    padding: 30px 0;
+  }
+}

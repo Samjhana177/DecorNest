@@ -12,26 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
-  const qtyInput  = document.getElementById("quantity");
-  const qtyMinus  = document.getElementById("qtyMinus");
-  const qtyPlus   = document.getElementById("qtyPlus");
-
-  if (qtyInput && qtyMinus && qtyPlus) {
-
-    qtyMinus.addEventListener("click", function () {
-      let current = parseInt(qtyInput.value);
-      if (current > 1) {
-        qtyInput.value = current - 1;
-      }
-    });
-
-    qtyPlus.addEventListener("click", function () {
-      let current = parseInt(qtyInput.value);
-      if (current < 10) {
-        qtyInput.value = current + 1;
-      }
-    });
-  }
+  
 
   function showToast(message) {
     const toast = document.createElement("div");
